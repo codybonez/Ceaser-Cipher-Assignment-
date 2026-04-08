@@ -8,10 +8,10 @@ namespace Ceaser_Cipher_Assignment
 {
     public class Cipher
     {
-        public string CeaserCipherEncrypt()
+        public string CeaserCipherEncrypt(int key, string message)
         {
 
-            return "0";
+            return message;
         }
     }
 }
