@@ -15,11 +15,11 @@ namespace Ceaser_Cipher_Tests
         }
 
         [Test]
-        public void CipherReturnsKey()
+        public void CipherReturnsKeyFowards()
         {
 
             key = 2;
-            var result = cipher.CeaserCipherEncrypt(key, "abc");
+            var result = cipher.CeaserCipherEncryptFoward(key, "abc");
 
             Assert.That(result, Is.EqualTo("cde"));
 
@@ -28,6 +28,9 @@ namespace Ceaser_Cipher_Tests
         [Test]
         public void CipherReturnsKeyBackwards()
         {
+            key = 2;
+            var result = cipher.CeaserCipherEncryptBackward(key, "abc");
+            Assert.That(result, Is.EqualTo("xyw"));
 
         }
 
