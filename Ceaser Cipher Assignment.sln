@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37027.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ceaser Cipher Assignment", "Ceaser Cipher Assignment\Ceaser Cipher Assignment.csproj", "{A27CD088-43AC-418D-BA8D-7F2C982F9E59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ceaser Cipher Tests", "Ceaser Cipher Tests\Ceaser Cipher Tests.csproj", "{5B1DDE15-0D8D-4893-841B-35F6418EC998}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A27CD088-43AC-418D-BA8D-7F2C982F9E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A27CD088-43AC-418D-BA8D-7F2C982F9E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A27CD088-43AC-418D-BA8D-7F2C982F9E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A27CD088-43AC-418D-BA8D-7F2C982F9E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B1DDE15-0D8D-4893-841B-35F6418EC998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B1DDE15-0D8D-4893-841B-35F6418EC998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B1DDE15-0D8D-4893-841B-35F6418EC998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B1DDE15-0D8D-4893-841B-35F6418EC998}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C406F8D9-70AF-4C2D-931B-7E5580A32663}
+	EndGlobalSection
+EndGlobal
