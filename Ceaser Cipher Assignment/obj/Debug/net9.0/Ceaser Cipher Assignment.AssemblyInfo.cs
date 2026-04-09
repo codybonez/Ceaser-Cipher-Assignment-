@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ceaser Cipher Assignment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38652d9a9e144baddbedb606c781188b7df9c2c6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+218723bb1ff8b6c8a6e0385fbdc414332ff56ee5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ceaser Cipher Assignment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ceaser Cipher Assignment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

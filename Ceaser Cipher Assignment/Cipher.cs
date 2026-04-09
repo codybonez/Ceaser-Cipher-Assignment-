@@ -12,53 +12,46 @@ namespace Ceaser_Cipher_Assignment
     {
         public string CeaserCipherEncryptFoward(int key, string message)
         {
-            
-            char[] c;
-            // loop that goes through and checks each character in the message
-            for (int i = 0; i < message.Length; i++)
+            key = (key % 26);
+            if (key < 0)
             {
-               
-                c = message.ToCharArray();
-
-               
-                c[i] = (char)(c[i] + key);
-              
-                
-                    
-                    
-                message = new string(c);
-                    
-                 
-                    
-                    
-                    
-                
-               
+                key += 26;
             }
-            return message;
+           
+           StringBuilder builder = new StringBuilder();
+            
+            // loop that goes through and checks each character in the message
+
+            foreach (var c in message)
+            { 
+
+                if (char.IsLetter(c))
+                {
+                    // checks to see if the letter is upercase or lowercase
+
+                    char baseChar = char.IsUpper(c) ? 'A' : 'a';
+                    char shifted = (char)((((c - baseChar) + key) % 26) + baseChar);
+                    builder.Append(shifted);
+                }
+                else
+                {
+                    builder.Append(c);
+                }
+
+
+            }
+                    
+            
+            return builder.ToString();
         }
         public string CeaserCipherEncryptBackward(int key, string message)
         {
-            char[] c;
+           
 
-            for (int i = 0; i <message.Length; i++)
-            {
-                c = message.ToCharArray();
-                c[i] = (char)(c[i] - key);
-                while (!char.IsLetter(c[i]))
-                {
-                    if (char.IsLetter(c[i]))
-                    {
-                        message = new string(c);
-                    }
-                    else
-                    {
-                        c[i] = (char)(c[i] -1);
-                    }
-                }
-                message = new string(c);
-            }
-            return message;
+            return CeaserCipherEncryptFoward(-key, message);
+
+
+
         }
     }
 }

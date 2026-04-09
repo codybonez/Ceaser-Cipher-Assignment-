@@ -25,21 +25,21 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Cipher.cs",
               "DocumentMoniker": "C:\\Users\\codynorwood\\source\\repos\\Ceaser Cipher Assignment\\Ceaser Cipher Assignment\\Cipher.cs",
               "RelativeDocumentMoniker": "Ceaser Cipher Assignment\\Cipher.cs",
-              "ToolTip": "C:\\Users\\codynorwood\\source\\repos\\Ceaser Cipher Assignment\\Ceaser Cipher Assignment\\Cipher.cs",
-              "RelativeToolTip": "Ceaser Cipher Assignment\\Cipher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\codynorwood\\source\\repos\\Ceaser Cipher Assignment\\Ceaser Cipher Assignment\\Cipher.cs*",
+              "RelativeToolTip": "Ceaser Cipher Assignment\\Cipher.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-08T18:55:21.32Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -47,9 +47,9 @@
               "Title": "CipherTest.cs",
               "DocumentMoniker": "C:\\Users\\codynorwood\\source\\repos\\Ceaser Cipher Assignment\\Ceaser Cipher Tests\\CipherTest.cs",
               "RelativeDocumentMoniker": "Ceaser Cipher Tests\\CipherTest.cs",
-              "ToolTip": "C:\\Users\\codynorwood\\source\\repos\\Ceaser Cipher Assignment\\Ceaser Cipher Tests\\CipherTest.cs",
-              "RelativeToolTip": "Ceaser Cipher Tests\\CipherTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\codynorwood\\source\\repos\\Ceaser Cipher Assignment\\Ceaser Cipher Tests\\CipherTest.cs*",
+              "RelativeToolTip": "Ceaser Cipher Tests\\CipherTest.cs*",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA0wCoAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-08T18:54:59.889Z",
               "EditorCaption": ""
@@ -60,9 +60,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\codynorwood\\source\\repos\\Ceaser Cipher Assignment\\Ceaser Cipher Assignment\\Program.cs",
               "RelativeDocumentMoniker": "Ceaser Cipher Assignment\\Program.cs",
-              "ToolTip": "C:\\Users\\codynorwood\\source\\repos\\Ceaser Cipher Assignment\\Ceaser Cipher Assignment\\Program.cs",
-              "RelativeToolTip": "Ceaser Cipher Assignment\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\codynorwood\\source\\repos\\Ceaser Cipher Assignment\\Ceaser Cipher Assignment\\Program.cs*",
+              "RelativeToolTip": "Ceaser Cipher Assignment\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-08T18:54:31.927Z",
               "EditorCaption": ""

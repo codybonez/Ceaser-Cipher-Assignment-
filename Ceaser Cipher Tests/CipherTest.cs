@@ -18,8 +18,8 @@ namespace Ceaser_Cipher_Tests
         public void CipherReturnsKeyFowards()
         {
 
-            key = 2;
-            var result = cipher.CeaserCipherEncryptFoward(key, "xyz");
+          
+            var result = cipher.CeaserCipherEncryptFoward(3, "xyz");
 
             Assert.That(result, Is.EqualTo("abc"));
 
@@ -28,10 +28,19 @@ namespace Ceaser_Cipher_Tests
         [Test]
         public void CipherReturnsKeyBackwards()
         {
-            key = 2;
-            var result = cipher.CeaserCipherEncryptBackward(key, "abc");
-            Assert.That(result, Is.EqualTo("xyw"));
+            
+            var result = cipher.CeaserCipherEncryptBackward(3, "abc");
+            Assert.That(result, Is.EqualTo("xyz"));
 
+        }
+
+        [Test]
+
+        public void CipherReturnsKeyFowardLong()
+        {
+
+            var result = cipher.CeaserCipherEncryptFoward(6, "The quick brown fox jumped over the lazy dog.");
+            Assert.That(result, Is.EqualTo("Znk waoiq hxuct lud pasvkj ubkx znk rgfe jum."));
         }
 
 
