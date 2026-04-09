@@ -19,9 +19,9 @@ namespace Ceaser_Cipher_Tests
         {
 
             key = 2;
-            var result = cipher.CeaserCipherEncryptFoward(key, "abc");
+            var result = cipher.CeaserCipherEncryptFoward(key, "xyz");
 
-            Assert.That(result, Is.EqualTo("cde"));
+            Assert.That(result, Is.EqualTo("abc"));
 
         }
 
